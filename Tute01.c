@@ -5,6 +5,13 @@
 #include <stdio.h>
 
 int main() {
+  int maths,chemistry;
+  float total,average;
+  printf("Enter the marks of two subjects:\n");
+  scanf("%d,%d",&maths,&chemistry);
+  total=maths+chemistry;
+  average=total/2;
+  printf("Average mark=%.2f\n",average);
   
   return 0;
 }
